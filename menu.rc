@@ -1,0 +1,40 @@
+#include "menu_header.h"
+
+MY_MENU_ID MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save", SAVE
+        MENUITEM "&Load", LOAD
+        MENUITEM "&EXIT", MY_FILE_EXIT_ID
+    END
+    POPUP "&LINE"
+    BEGIN
+        MENUITEM "&DDA LINE", MY_DDA_ID
+        MENUITEM "&MIDPOINT LINE", MY_MIDPOINT_LINE_ID
+        MENUITEM "&direct LINE", DIRECT
+
+    END
+    POPUP "&CIRCLE"
+    BEGIN
+        MENUITEM "&MIDPOINT CIRCLE",  MY_MIDPOINT_CIRCLE_ID
+        MENUITEM "&CARTESIAN CIRCLE", MY_CARTESIAN_CIRCLE_ID
+        MENUITEM "&Polar CIRCLE", POLAR
+
+    END
+    POPUP "&Filling"
+    BEGIN
+        MENUITEM "&Filling",  MY_FILLING_ID
+    END
+    POPUP "&Clipping"
+	BEGIN
+		MENUITEM "&Cohen", COHEN_ID
+        MENUITEM "&Polygon", COHEN_ID
+
+	END
+	POPUP "&Curve"
+	BEGIN
+		MENUITEM "&hermit", HERMIT
+		MENUITEM "&Bezier", BEZIER
+	END
+END

@@ -1,0 +1,18 @@
+#ifndef MENU_HEADER_H_INCLUDED
+#define MENU_HEADER_H_INCLUDED
+
+#define MY_MENU_ID 1
+#define MY_FILE_EXIT_ID 2
+#define MY_DDA_ID 3
+#define MY_MIDPOINT_LINE_ID 4
+#define MY_MIDPOINT_CIRCLE_ID 5
+#define MY_CARTESIAN_CIRCLE_ID 6
+#define MY_FILLING_ID 7
+#define COHEN_ID 8
+#define HERMIT 9
+#define BEZIER 10
+#define POLAR 11
+#define DIRECT 12
+#define SAVE 13
+#define LOAD 14
+#endif // MENU_HEADER_H_INCLUDED

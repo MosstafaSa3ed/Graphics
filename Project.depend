@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1526117240 source:c:\users\otv_b\desktop\project\menu.rc
+	"menu_header.h"
+
+1525821615 c:\users\otv_b\desktop\project\menu_header.h
+
+1526047313 source:c:\users\otv_b\desktop\project\main.cpp
+	<tchar.h>
+	<stdlib.h>
+	<windows.h>
+	<math.h>
+	<stack>
+	<vector>
+	<iostream>
+	"menu_header.h"
+
